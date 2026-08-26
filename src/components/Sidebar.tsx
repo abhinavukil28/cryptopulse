@@ -59,7 +59,7 @@ const SECONDARY_NAV: NavItem[] = [
   {
     id: 'nav-alerts',
     label: 'Alert Rules',
-    href: '#',
+    href: '/alert-rules',
     icon: <Bell size={18} />,
     badge: 3,
     badgeColor: 'bg-negative text-white',

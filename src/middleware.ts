@@ -14,7 +14,7 @@ function injectTokenFromHeader(request: NextRequest): void {
   request.cookies.set(`sb-${getProjectRef()}-auth-token`, token);
 }
 
-const PROTECTED_PATHS = ['/watchlist'];
+const PROTECTED_PATHS = ['/watchlist', '/alert-rules'];
 const AUTH_PATHS = ['/login', '/signup'];
 
 export async function middleware(request: NextRequest) {
